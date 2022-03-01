@@ -1,3 +1,6 @@
 {
-  "watchForFileChanges": false
+  "watchForFileChanges": false,
+  "env": {
+    "url": "https://www.jumia.com.ng"
+  }
 }

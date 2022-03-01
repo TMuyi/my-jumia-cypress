@@ -8,7 +8,7 @@ import LoginPage from "../support/pageObjects/LoginPage";
 describe("rstestv8", () => {
   let data;
   before(() => {
-    cy.visit("https://www.jumia.com.ng/"); //visit
+    cy.visit(Cypress.env("url")); //visit
 
     cy.fixture("users").then((fdata) => {
       data = fdata;
