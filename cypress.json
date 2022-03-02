@@ -1,6 +1,8 @@
 {
   "watchForFileChanges": false,
+  "defaultCommandTimeOut": 8000,
   "env": {
     "url": "https://www.jumia.com.ng"
-  }
+  },
+  "projectId": "tqivwc"
 }
