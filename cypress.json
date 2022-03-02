@@ -4,5 +4,6 @@
   "env": {
     "url": "https://www.jumia.com.ng"
   },
-  "projectId": "tqivwc"
+  "projectId": "tqivwc",
+  "reporter": "mochawesome"
 }
