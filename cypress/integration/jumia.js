@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-
+// TODO: selectors subject to change.
 import DefaultPage from "../support/pageObjects/DefaultPage";
 import CartPage from "../support/pageObjects/CartPage";
 import SearchPage from "../support/pageObjects/SearchPage";
