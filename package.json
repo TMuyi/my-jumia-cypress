@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " npx cypress run --record --key 7d077bb4-bd50-491d-9697-a8ae4cde052b --reporter mochawesome"
+    "test": " npx cypress run --record --key 7d077bb4-bd50-491d-9697-a8ae4cde052b --reporter mochawesome",
+    "headTest": "npm run test -- --headed"
   },
   "repository": {
     "type": "git",
