@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add("existingLogin", (email, password) => {
+  //assertion that login page is correct
+  cy.title().should("eq", "Login Page"); //move?
+  cy.location("pathname").should("eq", "/customer/account/login/");
+  cy.get(".-fg1 > :nth-child(1) > .lbl").type(data.email, { delay: 50 });
+  cy.get(".fi-br > .lbl").type(data.password, { delay: 50 });
+  cy.get(".fi-br > button > .ic").click();
+  //loginPage.clickFinalLogin().click();
+});
