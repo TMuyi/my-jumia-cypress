@@ -133,3 +133,5 @@ dist
 #mochawesome
 mochawesome-report/assets/
 cypress/fixtures/existingUser.json
+mochawesome-report/mochawesome.html
+mochawesome-report/mochawesome.json
