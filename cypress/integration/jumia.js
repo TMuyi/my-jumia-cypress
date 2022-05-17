@@ -5,7 +5,7 @@ import CartPage from "../support/pageObjects/CartPage";
 import SearchPage from "../support/pageObjects/SearchPage";
 import LoginPage from "../support/pageObjects/LoginPage";
 
-describe("rstestv8", () => {
+describe("Jumia Features Test", () => {
   beforeEach(() => {
     cy.visit(Cypress.env("url")); //visit
 
