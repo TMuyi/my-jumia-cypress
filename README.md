@@ -7,4 +7,5 @@ The goal of this repo is to practice cypress e2e tesing on jumia. WIP
 
 ## Tools & Frameworks
 * Cypress
-
+* mochawesome for reports
+* Page Object Models
