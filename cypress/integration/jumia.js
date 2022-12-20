@@ -66,36 +66,5 @@ describe("Jumia Features Test", () => {
       //i can either loop through the drop down results,
       //or click the search button
     });
-
-    // it("rstestv2", () => {
-    //   cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/");
-    //   cy.get(".search-keyword").type("ca");
-    //   cy.wait(2000);
-    //   cy.get(".products").as("productlocator");
-    //   cy.get("@productlocator")
-    //     .find(".product")
-    //     .eq(2)
-    //     .contains("ADD TO CART")
-    //     .click()
-    //     .then(() => {});
-    //   cy.get("@productlocator")
-    //     .find(".product")
-    //     .each(($el, index, $list) => {
-    //       const textVeg = $el.find("h4.product-name").text();
-    //       if (textVeg.includes("Cashew")) {
-    //         cy.wrap($el).find("button").click();
-    //       }
-    //     });
-
-    //   cy.get(".brand").should("have.text", "GREENKART");
-    //   cy.get(".brand").then((logoelement) => {
-    //     cy.log(logoelement.text());
-    //   });
-
-    //   cy.get(".cart-icon > img").click();
-    //   //cy.get(".cart-icon > img"); //CSS selector method to proceed to checkout
-    //   cy.contains("PROCEED TO CHECKOUT").click();
-    //   cy.get(":nth-child(14)").click();
-    //});
   }); //it
 }); //describe
